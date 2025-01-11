@@ -13,8 +13,8 @@ let package = Package(
             targets: ["Hodler"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/just-software-dev/BitcoinCore.Swift.git", .upToNextMajor(from: "3.0.0")),
-        .package(url: "https://github.com/just-software-dev/HsCryptoKit.Swift.git", .upToNextMajor(from: "1.2.1")),
+        .package(url: "https://github.com/just-software-dev/BitcoinCore.Swift.git", branch: "master"),
+        .package(url: "https://github.com/just-software-dev/HsCryptoKit.Swift.git", branch: "main"),
     ],
     targets: [
         .target(
